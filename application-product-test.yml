@@ -2,10 +2,10 @@ server:
   port: 8002
 spring:
   application:
-    name: aigou-product
+    name: aigou-product-test
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/mybatisplus
+    url: jdbc:mysql://localhost:3306/aigou_product
     username: root
     password: root
 mybatis-plus:
