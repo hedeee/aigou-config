@@ -2,10 +2,10 @@ server:
   port: 8001
 spring:
   application:
-    name: aigou-plat-test #æ³¨å†Œæ˜¾ç¤ºçš„åå­—
+    name: aigou-plat-test #×¢²áÏÔÊ¾µÄÃû×Ö
 eureka:
   client:
     service-url:
-     defaultZone: http://localhost:7001/eureka #å‘Šè¯‰æœåŠ¡æä¾›è€…è¦æŠŠæœåŠ¡æ³¨å†Œåˆ°å“ªå„¿
+     defaultZone: http://localhost:7001/eureka #¸æËß·şÎñÌá¹©ÕßÒª°Ñ·şÎñ×¢²áµ½ÄÄ¶ù
   instance:
-    prefer-ip-address: true #è®¾ç½®æ˜¾ç¤ºçš„ipä¸ºæœ¬åœ°ipï¼Œä¸æ˜¾ç¤ºè®¡ç®—æœºå
+    prefer-ip-address: true #ÉèÖÃÏÔÊ¾µÄipÎª±¾µØip£¬²»ÏÔÊ¾¼ÆËã»úÃû
